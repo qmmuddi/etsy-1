@@ -1,0 +1,277 @@
+.container-0 {
+    height: 150px;
+    /* background-color: grey; */
+    border-bottom: 1px solid rgb(197, 193, 193);
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
+}
+.item input{
+    width: 800px;
+    height: 50px;
+    
+}
+
+.logo-image img {
+    display: block;
+    height: 60px;
+    width: 60px;
+    padding: 20px;
+}
+
+.ul ul li a {
+    text-decoration: none;
+    color: black;
+    margin-top:20px;
+    padding: 12px;
+}
+.ul ul li a:hover{
+    background-color: rgb(218, 210, 210);
+    border: 1px solid rgb(218, 210, 210);
+    border-radius:20px;
+    color: black;
+}
+
+.ul ul li {
+    display: inline;
+    list-style: none;
+    margin-top: 30px;
+    padding: 12px;
+    justify-content: center;
+    align-items: center;
+}
+i{
+    margin: 10px;
+    padding: 22px;
+}
+i:hover{
+    background-color: rgb(218, 210, 210);
+    border-radius: 40px;
+}
+.menu {
+    cursor: pointer;
+    margin:4px 0px 25px 20px;
+    padding-bottom: 22px;
+}
+
+.menu:hover {
+    background-color: rgb(218, 210, 210);
+    color: black;
+    border: 1px solid rgb(218, 210, 210);
+    border-radius: 42px;
+}
+.searchbar form{
+    height: 20px;
+    width: 250px;
+    border-radius: 30px;
+    border-color: orangered;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    justify-content: center;
+    gap: 35px;
+}
+
+.box {
+    transition: 0.7s;
+}
+
+span {
+    padding: 3px;
+    margin: 3px;
+}
+
+.box img {
+    display: block;
+    height: 140px;
+    width: 140px;
+    border-radius: 70px;
+    cursor: pointer;
+}
+
+.box:hover {
+    transform: scale(1.1);
+    z-index: 2;
+    border-bottom: 1px solid rgb(218, 210, 210);
+}
+
+.container-2 {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    justify-content: center;
+    gap: 45px;
+}
+
+.box-2 {
+    transition: 0.7s;
+}
+
+span {
+    padding: 5px;
+    margin: 5px;
+}
+
+.box-2 img {
+    display: block;
+    height: 250px;
+    width: 165px;
+    border: 2px solid whitesmoke;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.box-2:hover {
+    transform: scale(1.1);
+    z-index: 2;
+}
+
+.click-button button {
+    height: 50px;
+    border: solid rgb(218, 210, 210);
+    border-radius: 30px;
+    cursor: pointer;
+    margin: 9px;
+}
+
+.click-button button:hover {
+    background-color: rgb(218, 210, 210);
+    color: black;
+}
+
+.site-heding {
+    margin-left: 50px;
+}
+
+.container-3 {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    justify-content: center;
+    gap: 15px;
+}
+
+/* .box-3{ */
+/* transition: 0.7s;
+} */
+span {
+    padding: 5px;
+    margin: 5px;
+}
+
+.box-3 img {
+    display: block;
+    /* height: 250px;
+    width: 165px; */
+    border: 2px solid whitesmoke;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+/* .box-3:hover{ */
+/* transform: scale(1.1);
+    z-index: 2;
+} */
+.site-heading-2 {
+    margin-left: 50px;
+}
+
+.container-4 {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    justify-content: center;
+    gap: 45px;
+}
+
+.box-4 {
+    transition: 0.7s;
+}
+
+span {
+    padding: 5px;
+    margin: 5px;
+}
+
+.box-4 img {
+    display: block;
+    height: 230px;
+    width: 230px;
+    border: 2px solid whitesmoke;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.box-4:hover {
+    transform: scale(1.1);
+    z-index: 2;
+}
+
+.container-5 {
+    width: 100%;
+    height: 750px;
+    background-color: rgb(224, 224, 224);
+}
+
+
+
+.box-6 {
+    box-sizing: 20px solid black;
+}
+
+.button-2 button {
+    justify-content: center;
+    height: 50px;
+    border-radius: 40px;
+    cursor: pointer;
+    margin-bottom: 30px;
+}
+
+.button-2 button:hover {
+    background-color: rgb(197, 187, 187);
+    color: black;
+}
+
+.container-7 {
+    height: 190px;
+    background-color: rgb(151, 247, 215);
+    display: flex;
+    /* flex-direction: ; */
+}
+
+.centre-heading h1{
+    font-size: 17px;
+    padding: 13px;
+    margin-left:400px ;
+}
+input{
+    /* display: inline; */
+    height: 50px;
+    width: 500px;
+    border-radius: 30px;
+    border-color:rgb(218, 210, 210) ;
+    justify-content: center;
+    align-items: center;
+    margin: 9px;
+}
+.form form input{
+    justify-content: center;
+    align-items: center;
+    margin-left:400px;
+}
+.container-8{
+    height: 90px;
+    background-color: rgb(53, 53, 238);
+    display: flex;
+}
+.center-heading-2 h1{
+    font-size: 21px;
+    justify-content: center;
+    align-items: center;
+    margin-left:510px ;
+}
+
